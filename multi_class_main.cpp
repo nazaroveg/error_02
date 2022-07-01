@@ -1,5 +1,6 @@
 ﻿// multi_class_main.cpp : 
 //
+#pragma once
 #include "multi_class_Header.h"
 
 int main()
