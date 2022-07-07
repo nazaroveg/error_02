@@ -2,9 +2,9 @@
 #include <iostream>
 #include <string>
 
-#include <locale>
 
-
+#ifndef figirecpp
+#define figirecpp
 
 class figure
 {
@@ -18,9 +18,15 @@ protected:
 	std::string name ;
 	int sides_count ;
 };
-#pragma once
-#include <iostream>
-#include <string>
+#endif //!figirecpp
+
+
+
+
+#ifndef trianglecpp
+#define trianglecpp
+
+
 class triangle : public figure
 {
 	
@@ -31,34 +37,55 @@ protected:
 	int corner_a = 0, corner_b = 0, corner_c = 0;
 	int Length_a = 0, Length_b = 0, Length_c = 0;
 };
-#pragma once
-#include <iostream>
-#include <string>
+#endif //!trianglecpp
+
+
+#ifndef Right_trianglecpp
+#define Right_trianglecpp
+
+
+
 class Right_triangle : public triangle
 {
 	public:
 	Right_triangle(const int A, int B, int a, int b, int c) : triangle(A, B, 90, a, b, c, "Прямоугольный треугольник") { }
 
 };
-#pragma once
-#include <iostream>
-#include <string>
+#endif //!Right_trianglecpp
+
+
+#ifndef Isosceles_trianglecpp
+#define Isosceles_trianglecpp
+
+
+
 class Isosceles_triangle : public triangle
 {
 public:
 	Isosceles_triangle(const int A, int B, int a, int b) : triangle(A, B, A, a, b, a, "Равнобедренный треугольник") {}
-#pragma once
-#include <iostream>
-#include <string>
 };
+#endif // !Isosceles_trianglecpp
+
+
+#ifndef Equilateral_trianglecpp
+#define Equilateral_trianglecpp
+
+
+
+
 class Equilateral_triangle : public triangle
 {
 public:
 	Equilateral_triangle(const int A, int a) : triangle(A, A, A, a, a, a, "Равносторонний треугольник") {  }
 };
-#pragma once
-#include <iostream>
-#include <string>
+#endif // !Equilateral_trianglecpp
+
+
+#ifndef Quadrilateralcpp
+
+#define Quadrilateralcpp
+
+
 class Quadrilateral : public figure
 {
 public:
@@ -71,38 +98,52 @@ protected:
 	int corner_a = 0, corner_b = 0, corner_c = 0, corner_d = 0;
 	int Length_a = 0, Length_b = 0, Length_c = 0, Length_d = 0;
 };
-#pragma once
-#include <iostream>
-#include <string>
+#endif // !Quadrilateralcpp
+
+#ifndef Parallelogram
+#define Parallelogramcpp
+
+
 class Parallelogram : public Quadrilateral
 {
 public:
 
 	Parallelogram(const int A, int B, int a, int b, std::string name = "Параллелограмм:") : Quadrilateral(A, B, A, B, a, b, a, b, name) {}
 };
-#pragma once
-#include <iostream>
-#include <string>
+#endif // !Parallelogram
+
+
+#ifndef Rectanglecpp
+#define Rectanglecpp
+
+
 class Rectangle : public Parallelogram
 {
 public:
 	Rectangle(const int a, int b, std::string name = "Прямоугольник:") :Parallelogram(90, 90, a, b, name) { }
 
 };
-#pragma once
-#include <iostream>
-#include <string>
+#endif // !Rectanglecpp
+
+#ifndef Rhombuscpp
+
+#define Rhombuscpp
+
 class Rhombus : public Parallelogram
 {
 public:
 	Rhombus(const int A, int B, int a) : Parallelogram(A, B, a, a, "Ромб:") {}
 };
-#pragma once
-#include <iostream>
-#include <string>
+#endif // !Rhombuscpp
+
+#ifndef Squarecpp
+
+#define Squarecpp
+
 class Square : public Rectangle
 {
 public:
 	Square(const int a, std::string name = "Квадрат:") : Rectangle(a, a, name) {}
 
 };
+#endif // !Squarecpp;

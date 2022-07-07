@@ -1,4 +1,4 @@
-#pragma once
+
 #include "multi_class_Header.h"
 
 class Quadrilateral; //: public figure  //Четырёхугольник  все !=

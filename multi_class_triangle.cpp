@@ -1,4 +1,4 @@
-#pragma once
+
 #include "multi_class_Header.h"
 
 class triangle; //: public figure //треугольник
@@ -8,7 +8,7 @@ class triangle; //: public figure //треугольник
 
 void triangle::print_info() const
 	{
-	setlocale(LC_ALL, "RUS");
+	
 		std::cout << name << std::endl;
 		std::cout << "число сторон: " << sides_count << std::endl;
 		std::cout << "Стороны: " << "a=" << Length_a << " " << "b=" << Length_b << " " << "c=" << Length_c << " " << std::endl;
