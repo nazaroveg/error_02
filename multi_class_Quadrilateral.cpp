@@ -1,7 +1,7 @@
 
 #include "multi_class_Header.h"
 
-class Quadrilateral; //: public figure  //Четырёхугольник  все !=
+class Quadrilateral; //: public figure  //Р§РµС‚С‹СЂС‘С…СѓРіРѕР»СЊРЅРёРє  РІСЃРµ !=
 
 	
 
@@ -10,9 +10,9 @@ class Quadrilateral; //: public figure  //Четырёхугольник  все !=
 	{
 		setlocale(LC_ALL, "RUS");
 		std::cout << name << std::endl;
-		std::cout << "число сторон: " << sides_count << std::endl;
-		std::cout << "Стороны: " << "a=" << Length_a << " " << "b=" << Length_b << " " << "c=" << Length_c << " " << "d=" << Length_d << std::endl;
-		std::cout << "Углы: " << "A=" << corner_a << " " << "B=" << corner_b << " " << "C=" << corner_c << " " << "D=" << corner_d << "\n" << std::endl;
+		std::cout << "С‡РёСЃР»Рѕ СЃС‚РѕСЂРѕРЅ: " << sides_count << std::endl;
+		std::cout << "РЎС‚РѕСЂРѕРЅС‹: " << "a=" << Length_a << " " << "b=" << Length_b << " " << "c=" << Length_c << " " << "d=" << Length_d << std::endl;
+		std::cout << "РЈРіР»С‹: " << "A=" << corner_a << " " << "B=" << corner_b << " " << "C=" << corner_c << " " << "D=" << corner_d << "\n" << std::endl;
 	}
 
 
