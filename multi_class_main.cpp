@@ -2,15 +2,15 @@
 //
 
 #include "multi_class_Header.h"
-#include <clocale>
-//#include "windows.h"
+#include <iostream>
+#include <string>
 
 
 
 
 int main()
 {
-	//setlocale(LC_ALL, "RUS");
+	setlocale(LC_ALL, "RUS");
 	//SetConsoleOutputCP(1251);
 	//SetConsoleCP(1251);
 	

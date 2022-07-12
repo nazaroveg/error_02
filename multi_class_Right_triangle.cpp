@@ -1,7 +1,9 @@
 
 #include "multi_class_Header.h"
+#include <iostream>
+#include <string>
 
-class Right_triangle; //: public triangle  // прямоугольный треугольник  один 90 гр
+class Right_triangle; //: public triangle  // РїСЂСЏРјРѕСѓРіРѕР»СЊРЅС‹Р№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє  РѕРґРёРЅ 90 РіСЂ
 
 
 

@@ -1,3 +1,5 @@
 
 #include "multi_class_Header.h"
-class Isosceles_triangle; //: public triangle  //Равнобедренный треугольник 2 ст =
+#include <iostream>
+#include <string>
+class Isosceles_triangle; //: public triangle  //Р Р°РІРЅРѕР±РµРґСЂРµРЅРЅС‹Р№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє 2 СЃС‚ =
