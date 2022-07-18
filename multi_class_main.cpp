@@ -2,7 +2,16 @@
 //
 
 #include "multi_class_Header.h"
-#include <iostream>
+#include "multi_class_Firure.h"
+#include "multi_class_triangle.h"
+#include "multi_class_Equilateral_triangle.h"
+#include "multi_class_Isosceles_triangle.h"
+#include "multi_class_Parallelogram.h"
+#include "multi_class_Quadrilateral.h"
+#include "multi_class_Rectangle.h"
+#include "multi_class_Rhombus.h"
+#include "multi_class_Right_triangle.h"
+#include "multi_class_Square.h"
 
 
 
@@ -13,7 +22,7 @@ int main()
 	setlocale(LC_ALL, "RUS");
 	//SetConsoleOutputCP(1251);
 	//SetConsoleCP(1251);
-	
+	//Figure fi{};
 	
 	triangle tr{ 50,60,70,10,20,30 };
 	Right_triangle Rt{ 50, 60, 10, 20, 30 };
@@ -25,14 +34,14 @@ int main()
 	Rhombus Rh{ 30,40,30 };
 	Square Sq{ 20 };
 
-
+	
 	tr.print_info();
 	Rt.print_info();
 	It.print_info();
 	Et.print_info();
 	Ql.print_info();
 	Pl.print_info();
-	Re.print_info();  ////#include "windows.h" ошибку выдает.
+	Re.print_info(); 
 	Sq.print_info();
 	Rh.print_info();
 
