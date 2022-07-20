@@ -1,12 +1,12 @@
-#pragma once
+ï»¿#pragma once
 #include "multi_class_Firure.h"
 
 
-class Quadrilateral : public figure
+class Quadrilateral : public Figure
 {
 public:
-	Quadrilateral(const int A, int B, int C, int D, int a, int b, int c, int d, std::string name = "×åòûğ¸õóãîëüíèê") :
-		figure(4, name), corner_a(A), corner_b(B), corner_c(C), corner_d(D),
+	Quadrilateral(const int A, int B, int C, int D, int a, int b, int c, int d, std::string name = "Ğ§ĞµÑ‚Ñ‹Ñ€Ñ‘Ñ…ÑƒĞ³Ğ¾Ğ»ÑŒĞ½Ğ¸Ğº") :
+		Figure(4, name), corner_a(A), corner_b(B), corner_c(C), corner_d(D),
 		Length_a(a), Length_b(b), Length_c(c), Length_d(d) {}
 	void print_info() const;
 

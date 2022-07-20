@@ -1,8 +1,8 @@
-#pragma once
+п»ї#pragma once
 #include "multi_class_triangle.h"
 
-class Equilateral_triangle : public triangle
+class Equilateral_triangle : public Triangle
 {
 public:
-	Equilateral_triangle(const int A, int a) : triangle(A, A, A, a, a, a, "Равносторонний треугольник") {  }
+	Equilateral_triangle(const int A, int a) : Triangle(A, A, A, a, a, a, "Р Р°РІРЅРѕСЃС‚РѕСЂРѕРЅРЅРёР№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє") {  }
 };

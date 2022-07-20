@@ -5,4 +5,4 @@
 
 
 
-class Isosceles_triangle; //: public triangle  //Равнобедренный треугольник 2 ст =
+class Isosceles_triangle; 

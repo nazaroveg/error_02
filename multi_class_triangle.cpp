@@ -1,15 +1,15 @@
-
+﻿
 
 #include "multi_class_triangle.h"
 
 
 
-class triangle; //: public figure //треугольник
+class Triangle;
 
 
 
 
-void triangle::print_info() const
+void Triangle::print_info() const
 	{
 	
 		std::cout << name << std::endl;

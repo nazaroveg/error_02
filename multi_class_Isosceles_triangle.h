@@ -1,9 +1,9 @@
-#pragma once
+п»ї#pragma once
 #include "multi_class_triangle.h"
 
 
-class Isosceles_triangle : public triangle
+class Isosceles_triangle : public Triangle
 {
 public:
-	Isosceles_triangle(const int A, int B, int a, int b) : triangle(A, B, A, a, b, a, "Равнобедренный треугольник") {}
+	Isosceles_triangle(const int A, int B, int a, int b) : Triangle(A, B, A, a, b, a, "Р Р°РІРЅРѕР±РµРґСЂРµРЅРЅС‹Р№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє") {}
 };

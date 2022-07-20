@@ -50,9 +50,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="multi_class_Header.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="multi_class_Firure.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>

@@ -1,7 +1,7 @@
 ﻿// multi_class_main.cpp : 
 //
 
-#include "multi_class_Header.h"
+
 #include "multi_class_Firure.h"
 #include "multi_class_triangle.h"
 #include "multi_class_Equilateral_triangle.h"
@@ -20,11 +20,9 @@
 int main()
 {
 	setlocale(LC_ALL, "RUS");
-	//SetConsoleOutputCP(1251);
-	//SetConsoleCP(1251);
-	//Figure fi{};
 	
-	triangle tr{ 50,60,70,10,20,30 };
+	
+	Triangle tr{ 50,60,70,10,20,30 };
 	Right_triangle Rt{ 50, 60, 10, 20, 30 };
 	Isosceles_triangle It{ 50, 60, 10, 20 };
 	Equilateral_triangle Et{ 60,30 };
