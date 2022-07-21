@@ -4,7 +4,7 @@
 
 
 
-class Triangle;
+
 
 
 
@@ -22,6 +22,5 @@ void Triangle::print_info() const
 
 
 
-	int corner_a = 0, corner_b = 0, corner_c = 0;
-	int Length_a = 0, Length_b = 0, Length_c = 0;
+	
 

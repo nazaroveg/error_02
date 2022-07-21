@@ -5,4 +5,4 @@
 
 
 
-class Isosceles_triangle; 
+
