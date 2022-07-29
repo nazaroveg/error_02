@@ -4,6 +4,8 @@
 class Right_triangle : public Triangle
 {
 public:
-	Right_triangle(const int A, int B, int a, int b, int c) : Triangle(A, B, 90, a, b, c, "Прямоугольный треугольник") { }
+	
+
+	Right_triangle(const int A, int B, int a, int b, int c);
 
 };

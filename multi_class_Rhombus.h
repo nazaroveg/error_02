@@ -5,5 +5,7 @@
 class Rhombus : public Parallelogram
 {
 public:
-	Rhombus(const int A, int B, int a) : Parallelogram(A, B, a, a, "Ромб:") {}
+	
+	Rhombus(const int A, int B, int a, std::string _name);
+
 };

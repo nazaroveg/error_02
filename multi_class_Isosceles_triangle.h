@@ -5,5 +5,7 @@
 class Isosceles_triangle : public Triangle
 {
 public:
-	Isosceles_triangle(const int A, int B, int a, int b) : Triangle(A, B, A, a, b, a, "Равнобедренный треугольник") {}
+	
+	Isosceles_triangle(const int A, int B, int a, int b);
+
 };

@@ -22,7 +22,7 @@ int main()
 	setlocale(LC_ALL, "RUS");
 	
 	
-	Triangle tr{ 50,60,70,10,20,30 };
+	Triangle tr{ 50,60,70,10,20,30};
 	Right_triangle Rt{ 50, 60, 10, 20, 30 };
 	Isosceles_triangle It{ 50, 60, 10, 20 };
 	Equilateral_triangle Et{ 60,30 };

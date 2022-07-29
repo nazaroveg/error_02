@@ -4,5 +4,9 @@
 class Equilateral_triangle : public Triangle
 {
 public:
-	Equilateral_triangle(const int A, int a) : Triangle(A, A, A, a, a, a, "Равносторонний треугольник") {  }
+	
+	Equilateral_triangle(int A, int a);
+
 };
+
+

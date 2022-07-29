@@ -4,7 +4,9 @@
 
 
 
-
+Quadrilateral::Quadrilateral(const int A, int B, int C, int D, int a, int b, int c, int d, std::string name = "Четырёхугольник") :
+	Figure(4, name), corner_a(A), corner_b(B), corner_c(C), corner_d(D),
+	Length_a(a), Length_b(b), Length_c(c), Length_d(d) {}
 	
 
 

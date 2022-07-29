@@ -5,6 +5,8 @@
 class Square : public Rectangle
 {
 public:
-	Square(const int a, std::string name = "Квадрат:") : Rectangle(a, a, name) {}
+	
+
+	Square(const int a, std::string _name);
 
 };
