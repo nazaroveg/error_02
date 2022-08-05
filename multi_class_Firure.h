@@ -10,10 +10,10 @@ public:
 	
     Figure(int _sides_count, std::string _name);
 
-	void print_info() const;
+	virtual void print_info() const;
 
 
 protected:
-	std::string name;
-	int sides_count;
+	std::string name {};
+	int sides_count = 0;
 };

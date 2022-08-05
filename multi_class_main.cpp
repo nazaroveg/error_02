@@ -22,15 +22,15 @@ int main()
 	setlocale(LC_ALL, "RUS");
 	
 	
-	Triangle tr{ 50,60,70,10,20,30};
+	Triangle tr{ 50,60,70,10,20,30, "Треугольник" };
 	Right_triangle Rt{ 50, 60, 10, 20, 30 };
 	Isosceles_triangle It{ 50, 60, 10, 20 };
-	Equilateral_triangle Et{ 60,30 };
-	Quadrilateral Ql{ 50,60,70,80,10,20,30,40 };
-	Parallelogram Pl{ 30, 40, 20, 30 };
-	Rectangle Re{ 20,30 };
-	Rhombus Rh{ 30,40,30 };
-	Square Sq{ 20 };
+	Equilateral_triangle Et{ 60,30};
+	Quadrilateral Ql{ 50,60,70,80,10,20,30,40, "Четырёхугольник" };
+	Parallelogram Pl{ 30, 40, 20, 30, "Параллелограмм:" };
+	Rectangle Re{ 20,30, "Прямоугольник:" };
+	Rhombus Rh{ 30,40,30, "Ромб:" };
+	Square Sq{ 20, "Квадрат:" };
 
 	
 	tr.print_info();
