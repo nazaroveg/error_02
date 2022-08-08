@@ -14,35 +14,113 @@
 #include "multi_class_Square.h"
 
 
-
+void print_created()
+{
+	std::cout << "создан" << "\n\n" << std::endl;
+}
 
 
 int main()
 {
 	setlocale(LC_ALL, "RUS");
 	
-	
-	Triangle tr{ 50,60,70,10,20,30, "Треугольник" };
-	Right_triangle Rt{ 50, 60, 10, 20, 30 };
-	Isosceles_triangle It{ 50, 60, 10, 20 };
-	Equilateral_triangle Et{ 60,30};
-	Quadrilateral Ql{ 50,60,70,80,10,20,30,40, "Четырёхугольник" };
-	Parallelogram Pl{ 30, 40, 20, 30, "Параллелограмм:" };
-	Rectangle Re{ 20,30, "Прямоугольник:" };
-	Rhombus Rh{ 30,40,30, "Ромб:" };
-	Square Sq{ 20, "Квадрат:" };
+	try
+	{
+		Triangle tr{ 50,60,70,10,20,30, "Треугольник" };
+		tr.print_info();
+		print_created();
+	}
+	catch (const class_error& A)
+	{
+		std::cout << A.what() << " не создан " << std::endl;
+		
+	}
+	try
+	{
+		Right_triangle Rt{ 45, 45, 10, 20, 30 };
+		Rt.print_info();
+		print_created();
+	}
+	catch (const class_error& A)
+	{
+		std::cout << A.what() << " не создан " << std::endl;
+	}
+	try
+	{
+		Isosceles_triangle It{ 50, 60, 10, 20 };
+		It.print_info();
+		print_created();
+	}
+	catch (const class_error& A)
+	{
+		std::cout << A.what() << " не создан " << std::endl;
+	}
+	try
+	{
+		Equilateral_triangle Et{ 60,30 };
+		Et.print_info();
+		print_created();
+	}
+
+	catch (const class_error& A)
+	{
+		std::cout << A.what() << " не создан " << std::endl;
+	}
+	try
+	{
+		Quadrilateral Ql{ 50,60,70,80,10,20,30,40, "Четырёхугольник" };
+		Ql.print_info();
+		print_created();
+
+	}
+	catch (const class_error& A)
+	{
+		std::cout << A.what() << " не создан " << std::endl;
+	}
+	try
+	{
+		Parallelogram Pl{ 30, 40, 20, 30, "Параллелограмм:" };
+		Pl.print_info();
+		print_created();
+	}
+	catch (const class_error& A)
+	{
+		std::cout << A.what() << " не создан " << std::endl;
+	}
+	try
+	{
+		Rectangle Re{ 20,30, "Прямоугольник:" };
+		Re.print_info();
+		print_created();
+	}
+	catch (const class_error& A)
+	{
+		std::cout << A.what() << " не создан " << std::endl;
+	}
+	try
+	{
+		Rhombus Rh{ 30,40,30, "Ромб:" };
+		Rh.print_info();
+		print_created();
+	}
+	catch (const class_error& A)
+	{
+		std::cout << A.what() << " не создан " << std::endl;
+	}
+	try
+	{
+		Square Sq{ 20, "Квадрат:" };
+		Sq.print_info();
+		print_created();
+	}
+	catch (const class_error& A)
+	{
+		std::cout << A.what() << " не создан " << std::endl;
+
+	}
+
 
 	
-	tr.print_info();
-	Rt.print_info();
-	It.print_info();
-	Et.print_info();
-	Ql.print_info();
-	Pl.print_info();
-	Re.print_info(); 
-	Sq.print_info();
-	Rh.print_info();
-
 	return 0;
 
 }

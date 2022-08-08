@@ -11,7 +11,7 @@ public:
     Figure(int sides_count, std::string name);
 
 	virtual void print_info() const;
-
+	virtual bool ckeck() const;
 
 protected:
 	std::string name {};

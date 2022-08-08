@@ -48,6 +48,9 @@
     <ClCompile Include="multi_class_Square.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="class_error.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="multi_class_Firure.h">
@@ -78,6 +81,9 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="multi_class_Equilateral_triangle.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="class_error.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
