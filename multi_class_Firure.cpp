@@ -2,7 +2,11 @@
 #include "multi_class_Firure.h"
 
 
-Figure::Figure (const int _sides_count = 0, std::string _name = "Фигура") : sides_count(_sides_count), name(_name) { };
+Figure::Figure (const int sides_count = 0, std::string name = "Фигура") : sides_count(sides_count), name(name) 
+{
+	this -> name = name;
+	this->sides_count = sides_count;
+};
 
 void  Figure::print_info() const
 

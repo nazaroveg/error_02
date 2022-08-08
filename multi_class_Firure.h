@@ -8,7 +8,7 @@ class  Figure
 
 public:
 	
-    Figure(int _sides_count, std::string _name);
+    Figure(int sides_count, std::string name);
 
 	virtual void print_info() const;
 

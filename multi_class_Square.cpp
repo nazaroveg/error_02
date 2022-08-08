@@ -3,4 +3,4 @@
 #include "multi_class_Square.h"
 
 
-Square::Square(const int a, std::string name = " ‚‡‰‡Ú:") : Rectangle(a, a, name) {}
+Square::Square(const int a, std::string name = "–ö–≤–∞–¥—Ä–∞—Ç:") : Rectangle(a, a, name) {}
