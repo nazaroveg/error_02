@@ -32,7 +32,7 @@ int main()
 	}
 	catch (const class_error& A)
 	{
-		std::cout << A.what() << " не создан " << std::endl;
+		std::cout << A.what() << " не создан \n" << std::endl;
 		
 	}
 	try
@@ -43,7 +43,7 @@ int main()
 	}
 	catch (const class_error& A)
 	{
-		std::cout << A.what() << " не создан " << std::endl;
+		std::cout << A.what() << " не создан \n" << std::endl;
 	}
 	try
 	{
@@ -53,7 +53,7 @@ int main()
 	}
 	catch (const class_error& A)
 	{
-		std::cout << A.what() << " не создан " << std::endl;
+		std::cout << A.what() << " не создан \n" << std::endl;
 	}
 	try
 	{
@@ -64,7 +64,7 @@ int main()
 
 	catch (const class_error& A)
 	{
-		std::cout << A.what() << " не создан " << std::endl;
+		std::cout << A.what() << " не создан \n" << std::endl;
 	}
 	try
 	{
@@ -75,7 +75,7 @@ int main()
 	}
 	catch (const class_error& A)
 	{
-		std::cout << A.what() << " не создан " << std::endl;
+		std::cout << A.what() << " не создан \n" << std::endl;
 	}
 	try
 	{
@@ -85,7 +85,7 @@ int main()
 	}
 	catch (const class_error& A)
 	{
-		std::cout << A.what() << " не создан " << std::endl;
+		std::cout << A.what() << " не создан \n" << std::endl;
 	}
 	try
 	{
@@ -95,7 +95,7 @@ int main()
 	}
 	catch (const class_error& A)
 	{
-		std::cout << A.what() << " не создан " << std::endl;
+		std::cout << A.what() << " не создан \n" << std::endl;
 	}
 	try
 	{
@@ -105,7 +105,7 @@ int main()
 	}
 	catch (const class_error& A)
 	{
-		std::cout << A.what() << " не создан " << std::endl;
+		std::cout << A.what() << " не создан \n" << std::endl;
 	}
 	try
 	{
@@ -115,7 +115,7 @@ int main()
 	}
 	catch (const class_error& A)
 	{
-		std::cout << A.what() << " не создан " << std::endl;
+		std::cout << A.what() << " не создан \n" << std::endl;
 
 	}
 

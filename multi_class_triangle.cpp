@@ -7,8 +7,10 @@
 Triangle::Triangle(const int A, int B, int C, int a, int b, int c, std::string name):
 	Figure(3, name), corner_a(A), corner_b(B), corner_c(C), Length_a(a), Length_b(b), Length_c(c) 
 {
+	
 	if (sides_count != 3)
 	{
+		
 		std::cout << " " << name << std::endl;
 		throw class_error("Неверное число сторон");
 		

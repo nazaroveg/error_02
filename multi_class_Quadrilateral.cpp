@@ -16,7 +16,7 @@ Quadrilateral::Quadrilateral(const int A, int B, int C, int D, int a, int b, int
 	if (corner_a + corner_b + corner_c + corner_d != 360)
 	{
 		std::cout << " " << name << std::endl;
-		throw class_error("Сумма углов не равна 180");
+		throw class_error("Сумма углов не равна 360");
 	}
 }
 	
