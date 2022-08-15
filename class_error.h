@@ -5,9 +5,9 @@
 class class_error :public std::exception
 {
 public:
-	class_error(const std::string  &what);
+	class_error(const char* what);
+	
 
-private:
-	std::string err;
+
 };
 

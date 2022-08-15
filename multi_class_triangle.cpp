@@ -20,6 +20,7 @@ Triangle::Triangle(const int A, int B, int C, int a, int b, int c, std::string n
 	{
 		std::cout << " " << name << std::endl;
 		throw class_error("Сумма углов не равна 180");
+
 		
 	}
 }
