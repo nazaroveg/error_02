@@ -40,7 +40,7 @@ void Triangle::print_info() const
 
 bool Triangle::ckeck() const
 {
-	return sides_count == 3 && (corner_a + corner_b + corner_c == 180);
+	return sides_count == (3 && (corner_a + corner_b + corner_c == 180));
 }
 
 

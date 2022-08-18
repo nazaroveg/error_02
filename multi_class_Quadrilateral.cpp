@@ -34,7 +34,7 @@ Quadrilateral::Quadrilateral(const int A, int B, int C, int D, int a, int b, int
 
 	bool Quadrilateral::ckeck() const
 	{
-		return sides_count == 4 && (corner_a + corner_b + corner_c + corner_d == 360);
+		return sides_count == (4 && (corner_a + corner_b + corner_c + corner_d == 360));
 	}
 
 
