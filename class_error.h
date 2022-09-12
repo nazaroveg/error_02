@@ -2,12 +2,13 @@
 #include <exception>
 #include <string>
 #include <iostream>
-class class_error :public std::exception
+class class_error 
 {
 public:
-	class_error(const char* what);
-	
-
+	class_error(const std::string what);
+	std::string what();
+//private:
+	std::string whado;
 
 };
 
